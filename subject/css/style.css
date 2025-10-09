@@ -1,0 +1,51 @@
+.content {
+    font-family: 'Malgun Gothic', sans-serif;
+    background-color: #f8f9fb;
+    margin: 30px;
+}
+
+#header-title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.date {
+    background-color: #d3d3d3;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+td:hover {
+    background-color: #ffda84;
+    transition: 0.3s;
+}
+
+.notes {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #666;
+    text-align: center;
+}
+
+#smu-link {
+    color: #2e40ce;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#smu-link:hover {
+    text-decoration: underline;
+    color: #ff4f09;
+}
