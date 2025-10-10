@@ -1,6 +1,8 @@
+* {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
 .content {
-    font-family: 'Malgun Gothic', sans-serif;
-    background-color: #f8f9fb;
     margin: 30px;
 }
 
@@ -14,11 +16,48 @@ table {
     width: 100%;
     border-collapse: collapse;
     background-color: white;
+    box-shadow: 2px 2px 2px 2px #000;
     border-radius: 10px;
+}
+
+@keyframes fade {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+span {
+    font-weight: bold;
+    font-style: italic;
+    color: #ff0000;
+    animation: fade 2s ease-in-out infinite;
 }
 
 .date {
     background-color: #d3d3d3;
+}
+
+.monday {
+    background-color: #ff9797;
+}
+
+.tuesday {
+    background-color: #929fff;
+}
+
+.wednesday {
+    background-color: #fff281;
+}
+
+.thursday {
+    background-color: #ffa6f5;
+}
+
+.friday {
+    background-color: #94ff9d;
 }
 
 th, td {
@@ -27,8 +66,8 @@ th, td {
     text-align: center;
 }
 
-td:hover {
-    background-color: #ffda84;
+.menu:hover {
+    background-color: #fff;
     transition: 0.3s;
 }
 
